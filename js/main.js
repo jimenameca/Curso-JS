@@ -80,7 +80,7 @@ function mostrarProductos() {
 }
 
     function encuestaSatisfaccion() {
-        const valoracion = parseInt(prompt("Del 1 al 10, ¿qué tan satisfecho estás con el proceso de compra?"))
+        const valoracion = parseInt(prompt("Del 1 al 10, ¿qué tan satisfecho estas con el simulador de Stock?"))
         if (valoracion >= 1 && valoracion <= 4) {
             alert("Lamentamos que tu experiencia no haya sido tan satisfactoria. Un operador se comunicará contigo para que nos cuentes qué sucedió.");
         } else if (valoracion >= 5 && valoracion <= 6) {
